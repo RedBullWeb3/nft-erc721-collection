@@ -10,5 +10,8 @@
   },
   "scripts": {
     "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
+  },
+  "devDependencies": {
+    "hardhat": "^2.10.0"
   }
 }
